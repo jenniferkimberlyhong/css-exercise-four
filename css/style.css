@@ -1,6 +1,5 @@
-*, *:before, *:after {
+*, *:after, *:before {
   box-sizing: border-box;
-  background-color: #dadada;
 }
 
 body {
@@ -17,25 +16,34 @@ h1 {
 
 h2 {
   font-size: 2em;
+  opacity: 0.5;
 }
 
 .baku {
-  background-image: url("/images/baku.jpg") top center no-repeat;
+  background-image: url("../images/baku.jpg");
+  background-repeat: no-repeat;
+  background-position: right, center;
   background-size: cover;
 }
 
 .london {
-  background-image: url("/images/london.png") center center no-repeat;
+  background-image: url("../images/london.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
   background-size: cover;
 }
 
 .madrid {
-  background-image: url("/images/madrid.jpg") left center no-repeat;
+  background-image: url("../images/madrid.jpg");
+  background-repeat: no-repeat;
+  background-position: left, center;
   background-size: cover;
 }
 
 .rome {
-  background-image: url("/images/rome.jpg") center center no-repeat;
+  background-image: url("../images/rome.jpg");
+  background-repeat: no-repeat;
+  background-position: center, center;
   background-size: cover;
 }
 
